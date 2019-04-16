@@ -32,7 +32,7 @@ if [[ -e /etc/debian_version ]]; then
 	if [[ "$VERSION_ID" != 'VERSION_ID="7"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="8"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="9"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="14.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="16.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="17.04"' ]]; then
 		echo ""
 		echo "  (\_(\ "
-		echo " (=’ :’) :* Script by Mnm Ami"
+		echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 		echo "  (,(”)(”) °.¸¸.•"
 		echo ""
 		echo "เวอร์ชั่น OS ของคุณเป็นเวอร์ชั่นที่ยังไม่รองรับ"
@@ -46,7 +46,7 @@ if [[ -e /etc/debian_version ]]; then
 else
 	echo ""
 	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
+	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "  (,(”)(”) °.¸¸.•"
 	echo ""
 	echo "OS ที่คุณใช้ไม่สามารถรองรับได้กับสคริปท์นี้"
@@ -66,7 +66,7 @@ NC='\033[0m'
 # Menu
 echo ""
 echo "  (\_(\ "
-echo " (=’ :’) :* Script by ทดลอง"
+echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 echo "  (,(”)(”) °.¸¸.•"
 echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
@@ -467,7 +467,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>Source by Mnm Ami | Donate via TrueMoney Wallet : 0000000000</pre>" > /home/vps/public_html/index.html
+	echo "<pre>Source ─━═हຫມາສີ້ແມ່ມືງह═━─ | Donate via TrueMoney Wallet : 0000000000</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -584,7 +584,7 @@ END
 
 fi
 
-	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/nwqionm/OPENEXTRA/master/Menu"
+	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/phutthasit2530/ton/master/Menu"
 	chmod +x /usr/local/bin/menu
 	wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/phutthasit2530/ton/master/Auto-Delete-Client"
 	chmod +x /usr/local/bin/Auto-Delete-Client 
@@ -918,7 +918,7 @@ if [[ -e /etc/squid3/squid.conf ]]; then
 	clear
 	echo ""
 	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
+	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "  (,(”)(”) °.¸¸.•"
 	echo ""
 	echo "Donate via TrueMoney Wallet : 000000000"
@@ -930,7 +930,7 @@ elif [[ -e /etc/squid/squid.conf ]]; then
 	clear
 	echo ""
 	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
+	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "  (,(”)(”) °.¸¸.•"
 	echo ""
 	echo "Donate via TrueMoney Wallet : 0000000000"
@@ -982,10 +982,10 @@ END
 	clear
 	echo ""
 	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
+	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "  (,(”)(”) °.¸¸.•"
 	echo ""
-	echo "Source by Mnm Ami"
+	echo "Source ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "Donate via TrueMoney Wallet : 00000000000"
 	echo ""
 	echo "Squid Proxy .....Install finish."
@@ -1031,7 +1031,7 @@ END
 	clear
 	echo ""
 	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
+	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "  (,(”)(”) °.¸¸.•"
 	echo ""
 	echo "Source by Mnm Ami"
