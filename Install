@@ -31,9 +31,9 @@ if [[ -e /etc/debian_version ]]; then
 
 	if [[ "$VERSION_ID" != 'VERSION_ID="7"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="8"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="9"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="14.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="16.04"' ]] && [[ "$VERSION_ID" != 'VERSION_ID="17.04"' ]]; then
 		echo ""
-		echo "  (\_(\ "
-		echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-		echo "  (,(”)(”) °.¸¸.•"
+
+		echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 		echo ""
 		echo "เวอร์ชั่น OS ของคุณเป็นเวอร์ชั่นที่ยังไม่รองรับ"
 		echo "สำหรับเวอร์ชั่นที่รองรับได้ จะมีดังนี้..."
@@ -45,9 +45,9 @@ if [[ -e /etc/debian_version ]]; then
 	fi
 else
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
 	echo "OS ที่คุณใช้ไม่สามารถรองรับได้กับสคริปท์นี้"
 	echo "สำหรับ OS ที่รองรับได้ จะมีดังนี้..."
@@ -65,12 +65,12 @@ NC='\033[0m'
 
 # Menu
 echo ""
-echo "  (\_(\ "
-echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-echo "  (,(”)(”) °.¸¸.•"
+
+echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
+	echo -e "ฟังก์ชั่นสคริปท์ ${GRAY} ─━═हຫມາສີ້ແມ່ມືງह═━─${NC}"
 	echo ""
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		echo -e "|${GRAY} 1${NC}| ถอนการติดตั้ง OPENVPN ที่ควบคุมการใช้งานผ่านเทอร์มินอล ${GREEN} ✔   ${NC}"
@@ -102,7 +102,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	read -p "เลือกหัวข้อฟังก์ชั่นที่ต้องการใช้งาน : " FUNCTIONSCRIPT
 
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "FUNCTION SCRIPT ${GRAY}✿.｡.:* *.:｡✿*ﾟ’ﾟ･✿.｡.:*${NC}"
+	echo -e "FUNCTION SCRIPT ${GRAY}─━═हຫມາສີ້ແມ່ມືງह═━─${NC}"
 	echo ""
 	if [[ -e /etc/openvpn/server.conf ]]; then
 		echo -e "|${GRAY} 1${NC}| REMOVE OPENVPN TERMINAL CONTROL ${GREEN} ✔   ${NC}"
@@ -467,7 +467,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>Source ─━═हຫມາສີ້ແມ່ມືງह═━─ | Donate via TrueMoney Wallet : 0000000000</pre>" > /home/vps/public_html/index.html
+	echo "<pre>Source ─━═हຫມາສີ້ແມ່ມືງह═━─ | Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
