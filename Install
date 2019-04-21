@@ -917,11 +917,11 @@ if [[ -e /etc/squid3/squid.conf ]]; then
 	apt-get -y remove --purge squid3
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
-	echo "Donate via TrueMoney Wallet : 000000000"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "Squid Proxy .....Removed."
 	exit
@@ -929,9 +929,9 @@ elif [[ -e /etc/squid/squid.conf ]]; then
 	apt-get -y remove --purge squid
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
 	echo "Donate via TrueMoney Wallet : 0000000000"
 	echo ""
@@ -981,9 +981,9 @@ END
 	fi
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
 	echo "Source ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo "Donate via TrueMoney Wallet : 00000000000"
@@ -1030,12 +1030,12 @@ END
 	/etc/init.d/squid restart
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* ─━═हຫມາສີ້ແມ່ມືງह═━─"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
-	echo "Source by Mnm Ami"
-	echo "Donate via TrueMoney Wallet : 0000000000"
+	echo "Source ─━═हຫມາສີ້ແມ່ມືງह═━─"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
