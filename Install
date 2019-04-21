@@ -415,7 +415,7 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote $IP:$PORT@anywhere.truevisions.tv.ps.line.naver.jp.coral.dtac.co.th $PORT
+remote $IP:kd.truevisions.tv.www.ace.ac.th.trueplookpanya.com$PORT
 http-proxy $IP $PROXY
 resolv-retry infinite
 nobind
@@ -602,11 +602,11 @@ fi
 	esac
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "Script by ─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
-	echo "Donate via TrueMoney Wallet : 0000000000"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "OpenVPN, Squid Proxy, Nginx .....Install finish."
 	echo "IP Server : $IP"
@@ -736,11 +736,11 @@ fi
 if [[ "$NoSquid" = 'N' ]]; then
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "Script by ─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
-	echo "Donate via TrueMoney Wallet : 0000000000"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "Pritunl .....Install Finish."
 	echo "No Proxy"
@@ -847,11 +847,11 @@ fi
 
 clear
 echo ""
-echo "  (\_(\ "
-echo " (=’ :’) :* Script by ทดลอง"
-echo "  (,(”)(”) °.¸¸.•"
+
+echo "Script by ─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 echo ""
-echo "Donate via TrueMoney Wallet : 000000000"
+echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 echo ""
 echo "Pritunl, Squid Proxy .....Install Finish."
 echo "IP Proxy : $IP"
@@ -880,11 +880,11 @@ elif [[ ! -e /etc/default/dropbear ]]; then
 	PORTSSH=$(grep '^Port ' /etc/ssh/sshd_config | cut -d " " -f 2)
 	clear
 	echo ""
-	echo "  (\_(\ "
-	echo " (=’ :’) :* Script by ทดลอง"
-	echo "  (,(”)(”) °.¸¸.•"
+
+	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
+
 	echo ""
-	echo "Donate via TrueMoney Wallet : 0000000000"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "SSH Dropbear .....Install Finish."
 	echo "IP Addrsss : $IP"
@@ -933,7 +933,7 @@ elif [[ -e /etc/squid/squid.conf ]]; then
 	echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
 
 	echo ""
-	echo "Donate via TrueMoney Wallet : 0000000000"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "Squid Proxy .....Removed."
 	exit
@@ -986,7 +986,7 @@ END
 
 	echo ""
 	echo "Source ─━═हຫມາສີ້ແມ່ມືງह═━─"
-	echo "Donate via TrueMoney Wallet : 00000000000"
+	echo "Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─"
 	echo ""
 	echo "Squid Proxy .....Install finish."
 	echo "IP Proxy : $IP"
