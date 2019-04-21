@@ -21,9 +21,9 @@ echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
 
 echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "เมนูสคริปท์ ${GRAY}─━═हຫມາສີ້ແມ່ມືງह═━─${NC}"
+	echo -e "เมนูสคริปท์ ${GREEN}─━═हຫມາສີ້ແມ່ມືງह═━─${NC}"
 	echo ""
-	echo -e "|${GREEN} 1${RD}| เพิ่มบัญชีผู้ใช้ OpenVPN"
+	echo -e "|${GREEN} 1${GREEN}| เพิ่มบัญชีผู้ใช้ OpenVPN"
 	echo -e "|${GRAY} 2${NC}| เพิ่มบัญชีผู้ใช้ SSH (HTTP)"
 	echo -e "|${GRAY} 3${NC}| ลบบัญชีผู้ใช้"
 	echo -e "|${GRAY} 4${NC}| ตรวจสอบบัญชีผู้ใช้ทั้งหมด และตรวจสอบบัญชีที่กำลังเชื่อมต่อ"
