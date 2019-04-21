@@ -415,7 +415,7 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote $IP:$PORT@anywhere.truevisions.tv.line.naver.jp.uevisions.tv.www.ace.ac.th.trueplookpanya.com$PORT
+remote $IP:$PORT@anywhere.truevisions.tv.line.naver.jp.kd.truevisions.tv.www.ace.ac.th.trueplookpanya.com$PORT
 http-proxy $IP $PROXY
 resolv-retry infinite
 nobind
