@@ -10,9 +10,9 @@ IP=$(wget -4qO- "http://whatismyip.akamai.com/")
 #
 
 # Color
-GRAY='\033[1;33m'
+GREEN='\033[1;33m'
 GREEN='\033[0;32m'
-NC='\033[0m'
+GREEN='\033[0m'
 
 # Menu
 echo ""
