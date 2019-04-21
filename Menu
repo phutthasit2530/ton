@@ -21,7 +21,7 @@ echo "─━═हຫມາສີ້ແມ່ມືງह═━─"
 
 echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "เมนูสคริปท์ ${GREEN}─━═हຫມາສີ້ແມ່ມືງह═━─${NC}"
+	echo -e "เมนูสคริปท์ ${GREEN}─━═हຫມາສີ້ແມ່ມືງह═━─${GREEN}"
 	echo ""
 	echo -e "|${GREEN} 1${GREEN}| เพิ่มบัญชีผู้ใช้ OpenVPN"
 	echo -e "|${GREEN} 2${GREEN}| เพิ่มบัญชีผู้ใช้ SSH (HTTP)"
@@ -36,11 +36,11 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GREEN}11${NC}| ตรวจสอบแบนด์วิดท์แบบรายชั่วโมง"
 	echo -e "|${GREEN}12${NC}| ตรวจสอบแบนด์วิดท์ต่อบัญชี"
 	echo -e "|${GREEN}13${NC}| ปรับเปลี่ยนระบบของเซิฟเวอร์"
-	if [[ $CHECKSYSTEM ]]; then
+	
 		echo -e "|${GRAY}14${NC}| แบนและปลดแบนบัญชีผู้ใช้"
-	else
+	
 		echo -e "|${GRAY}14${NC}| แบนและปลดแบนบัญชีผู้ใช้ ${GRAY}ใช้งานไม่ได้กับเซิฟเวอร์ระบบปัจจุบัน  ${NC}"
-	fi
+	
 	echo -e "|${GREEN}15${NC}| ปรับความเร็วอินเตอร์เน็ต"
 	echo -e "|${GREEN}16${NC}| เปิด-ปิด-รีสตาร์ท การทำงานของระบบ"
 	echo -e "|${GREEN}17${NC}| แก้ไขคอนฟิกต่างๆในระบบ"
