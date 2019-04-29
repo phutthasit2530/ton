@@ -1368,7 +1368,7 @@ rm -f /usr/local/bin/menu
 wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/phutthasit2530/ton/master/Menu"
 chmod +x /usr/local/bin/menu
 rm -f /usr/local/bin/Auto-Delete-Client 
-wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/phutthasit25300/ton/master/Auto-Delete-Client"
+wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/phutthasit2530/ton/master/Auto-Delete-Client"
 chmod +x /usr/local/bin/Auto-Delete-Client
 menu
 
