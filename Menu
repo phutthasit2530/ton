@@ -574,17 +574,17 @@ fi
 	;;
 
 	9) # ==================================================================================================================
-if [[ $USER != 'root' ]]; then
-	echo "Oops! root privileges needed"
-	exit
-fi
-while :
-do
-	clear
-	echo " "
-	echo " "
-	echo "-----------------------------------------"
-	echo "            Edit Port Options            "
+
+	
+	
+
+
+
+	
+	echo "" 
+	
+	
+	
 	echo "-----------------------------------------"
 	echo -e "\e[031;1m 1\e[0m) Edit Port OpenSSH (\e[34;1medit-port-openssh\e[0m)"
 	echo -e "\e[031;1m 2\e[0m) Edit Port Dropbear (\e[34;1medit-port-dropbear\e[0m)"
@@ -619,9 +619,9 @@ do
 		clear
 		exit
 		;;
-	esac
-done
-cd
+	
+
+
 
 	;;
 
