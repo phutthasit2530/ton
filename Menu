@@ -31,7 +31,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GRAY} 6${NC}| เปลี่ยนวันหมดอายุบัญชีผู้ใช้"
 	echo -e "|${GRAY} 7${NC}| ตั้งค่าเวลารีบูทเซิฟเวอร์อัตโนมัติ"
 	echo -e "|${GRAY} 8${NC}| ทดสอบความเร็วอินเตอร์เน็ต"
-	echo -e "|${GRAY} 9${NC}| -"
+	echo -e "|${GRAY} 9${NC}| ทดสอบความเร็วอินเตอร์เน็ต"
 	echo -e "|${GRAY}10${NC}| ตรวจสอบแบนด์วิดท์"
 	echo -e "|${GRAY}11${NC}| ตรวจสอบแบนด์วิดท์แบบรายชั่วโมง"
 	echo -e "|${GRAY}12${NC}| ตรวจสอบแบนด์วิดท์ต่อบัญชี"
@@ -59,7 +59,7 @@ elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "|${GRAY} 6${NC}| RENEW EXPIRE DATE OF CLIENT"
 	echo -e "|${GRAY} 7${NC}| SET TIME AUTO REBOOT SERVER"
 	echo -e "|${GRAY} 8${NC}| SPEEDTEST"
-	echo -e "|${GRAY} 9${NC}| -"
+	echo -e "|${GRAY} 9${NC}| SPEEDTEST"
 	echo -e "|${GRAY}10${NC}| CHECK ALL BANDWIDTH"
 	echo -e "|${GRAY}11${NC}| CHECK BANDWIDTH PER HOUR"
 	echo -e "|${GRAY}12${NC}| CHECK BANDWIDTH PER USER"
@@ -574,56 +574,26 @@ fi
 	;;
 
 	9) # ==================================================================================================================
-
-	
-	
-
-
-
-	
-	echo "" 
-	
-	
-	
-	echo "-----------------------------------------"
-	echo -e "\e[031;1m 1\e[0m) Edit Port OpenSSH (\e[34;1medit-port-openssh\e[0m)"
-	echo -e "\e[031;1m 2\e[0m) Edit Port Dropbear (\e[34;1medit-port-dropbear\e[0m)"
-	echo -e "\e[031;1m 3\e[0m) Edit Port Squid Proxy (\e[34;1medit-port-squid\e[0m)"
-	echo -e "\e[031;1m 4\e[0m) Edit Port OpenVPN (\e[34;1medit-port-openvpn\e[0m)"
-	echo ""
-	echo -e "\e[031;1m x\e[0m) Exit"
-	echo ""
-	read -p "Select options from (1-4 or x): " option2
-	case $option2 in
-		1)
-		clear
-		edit-port-openssh
-		exit
-		;;
-		2)
-		clear
-		edit-port-dropbear
-		exit
-		;;
-		3)
-		clear
-		edit-port-squid
-		exit
-		;;
-		4)
-		clear
-		edit-port-openvpn
-		exit
-		;;
-		x)
-		clear
-		exit
-		;;
-	
-
-
+if [[ -e /usr/local/bin/speedtest ]]; then
+	clear
+	speedtest --share
+elif [[ ! -e /usr/local/bin/speedtest ]]; then
+	wget -O /usr/local/bin/speedtest "https://raw.githubusercontent.com/phutthasit2530/ton/master/Speedtest"
+	chmod +x /usr/local/bin/speedtest
+	clear
+	speedtest --share
+fi
 
 	;;
+
+	
+	
+
+
+
+	
+	
+	
 
 
 	10) # ==================================================================================================================
