@@ -22,7 +22,7 @@ echo ""
         echo "" 
 
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	echo -e "${GREEN} 🐰─━═हຫມາສີ້ແມ່ມືງह═━─🐰 ${NC}"
+	echo -e "${GREEN}     🍁🍁─━═हຫມາສີ້ແມ່ມືງह═━─🍁🍁 ${NC}"
 	echo ""
 	echo -e "  🌻${GREEN} 1 🍁 เพิ่มบัญชีผู้ใช้ OpenVPN ${NC}" 
 	echo -e "  🌻${GREEN} 2 🍁 เพิ่มบัญชีผู้ใช้ SSH (HTTP) ${NC}" 
@@ -32,7 +32,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	echo -e "  🌻${GREEN} 6 🍁 เปลี่ยนวันหมดอายุบัญชีผู้ใช้ ${NC}"
 	echo -e "  🌻${GREEN} 7 🍁 ตั้งค่าเวลารีบูทเซิฟเวอร์อัตโนมัติ ${NC}"
 	echo -e "  🌻${GREEN} 8 🍁 ทดสอบความเร็วอินเตอร์เน็ต ${NC}"
-	echo -e "  🌻${GREEN} 9 🍁 🐰🐰🐰 ${NC}" 
+	echo -e "  🌻${GREEN} 9 🍁 🍁🍁🍁${NC}" 
 	echo -e "  🌻${GREEN}10 🍁 ตรวจสอบแบนด์วิดท์ ${NC}" 
 	echo -e "  🌻${GREEN}11 🍁 ตรวจสอบแบนด์วิดท์แบบรายชั่วโมง ${NC}" 
 	echo -e "  🌻${GREEN}12 🍁 ตรวจสอบแบนด์วิดท์ต่อบัญชี ${NC}" 
@@ -40,7 +40,7 @@ if [[ -e /usr/local/bin/Check-Thai ]]; then
 	if [[ $CHECKSYSTEM ]]; then
 		echo -e "  🌻${GREEN}14 🍁 แบนและปลดแบนบัญชีผู้ใช้ ${NC}"
 	else
-		echo -e "  🌻${GREEN}14 🍁 แบนและปลดแบนบัญชีผู้ใช้ ${NC}ใช้งานไม่ได้กับเซิฟเวอร์ระบบปัจจุบัน  ${NC}"
+		echo -e "  🌻${GREEN}14 🍁 แบนและปลดแบนบัญชีผู้ใช้ ${NC} ${GREEN} ใช้งานไม่ได้กับเซิฟเวอร์ระบบปัจจุบัน  ${NC}"
 	fi
 	echo -e "  🌻${GREEN}15 🍁 ปรับความเร็วอินเตอร์เน็ต ${NC}"
 	echo -e "  🌻${GREEN}16 🍁 เปิด-ปิด-รีสตาร์ท การทำงานของระบบ ${NC}"
@@ -109,7 +109,7 @@ echo ""
 bash Auto-Delete-Client
 echo ""
 if [[ -e /usr/local/bin/Check-Thai ]]; then
-	read -p "เลือกหัวข้อเมนูที่ต้องการใช้งาน : " MENU
+	read -p "${GREEN}เลือกหัวข้อเมนูที่ต้องการใช้งาน ${NC}: " MENU
 elif [[ ! -e /usr/local/bin/Check-Thai ]]; then
 	read -p "Select a Menu Script : " MENU
 fi
