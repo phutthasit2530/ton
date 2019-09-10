@@ -415,9 +415,10 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote $IP:$PORT@kd.truevisions.tv.www.ace.ac.th.trueplookpanya.com $PORT
+remote $" IP:$PORT:443 /chats/ HTTP/1.1"
 http-proxy $IP $PROXY
 resolv-retry infinite
+http-proxy-option CUSTOM-HEADER Host c.whatsapp.net
 nobind
 persist-key
 persist-tun
