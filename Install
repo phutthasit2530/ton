@@ -415,7 +415,8 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote $IP:$PORT
+remote "$IP:$PORT /chats HTTP/1.1"
+http-proxy-option CUSTOM HEADER Host c.whatsapp.net
 http-proxy $IP $PROXY
 resolv-retry infinite
 http-proxy-option CUSTOM-HEADER Host c.whatsapp.net
