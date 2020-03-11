@@ -415,11 +415,20 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote "$IP:$PORT /chats HTTP/1.1"
-http-proxy-option CUSTOM HEADER Host c.whatsapp.net
+remote "$IP:$Port@cdn.beetalkapp.com
 http-proxy $IP $PROXY
+http-proxy-retry
+http-proxy-option VERSION "1.1"
+http-proxy-option CUSTOM-HEADER "UNLOCK" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "MOVE" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "PATCH" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "PROPPATCH" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "GET" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "CONNECT" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "PUT" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "DELETE" "Host: cdn.beetalkapp.com"
+http-proxy-option CUSTOM-HEADER "POST" "Host: cdn.beetalkapp.com"
 resolv-retry infinite
-http-proxy-option CUSTOM-HEADER Host c.whatsapp.net
 nobind
 persist-key
 persist-tun
