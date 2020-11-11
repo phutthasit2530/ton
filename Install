@@ -479,7 +479,7 @@ http {
 END
 	mkdir -p /home/vps/public_html
 	echo "<pre>Source ─━═हຫມາສີ້ແມ່ມືງह═━─ | Donate via TrueMoney Wallet : ─━═हຫມາສີ້ແມ່ມືງह═━─</pre>" > /home/vps/public_html/index.html
-	echo "<?php info(); ?>" > /home/vps/public_html/info.php
+echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
 	document_root='$document_root'
